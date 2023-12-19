@@ -1,0 +1,247 @@
+:root {
+  --white: #ffffff;
+  --skin: #ffccbc;
+  --light-blue: #d3e3fc;
+  --dark-blue: #77a6f7;
+  --green: #00887a;
+  --dark: #000000;
+}
+
+.bg-dark-blue {
+  background: var(--dark-blue);
+}
+
+.text-dark-blue {
+  color: var(--dark-blue);
+}
+
+.bg-green {
+  background: var(--green) !important;
+}
+
+.text-green {
+  color: var(--green) !important;
+}
+
+#user_header ul li {
+  list-style: none;
+}
+
+#user_header ul li a {
+  font-weight: bold;
+  color: var(--white);
+  transition: 0.5s;
+}
+
+#user_header ul li a:hover {
+  color: var(--dark);
+  transition: 0.5s;
+}
+
+#user_header ul li a:hover~#road_map {
+  color: white;
+  background-color: red;
+}
+
+#home_page_road_map_right .road {
+  border-top: 2px dashed white;
+}
+
+#home_page_road_map_down .road {
+  border-left: 2px dashed white;
+}
+
+@media screen and (max-width: 767px) {
+  #MenuList {
+    width: 100%;
+  }
+}
+
+@media screen and (min-width: 767px) {
+  #home_page_menu_list {
+    display: flex !important;
+  }
+}
+
+#footer #footer_car,
+#footer #footer_cycle,
+#footer #footer_bus {
+  animation: RunningCarCycle 30s linear infinite;
+}
+
+#footer #footer_cycle {
+  animation-delay: 20s !important;
+}
+
+#footer #footer_bus {
+  animation-delay: 10s !important;
+}
+
+@-webkit-keyframes RunningCarCycle {
+  0% {
+    left: -25%;
+  }
+
+  100% {
+    left: 100%;
+  }
+}
+
+#footer .top_5_trip a {
+  font-weight: bold;
+  color: var(--green);
+  transition: 0.5s;
+}
+
+#footer .top_5_trip:hover>a {
+  transform: translateX(10px);
+  transition: 0.5s;
+}
+
+#footer .top_5_trip {
+  position: relative;
+}
+
+#footer .top_5_trip::after {
+  content: "";
+  width: 0%;
+  height: 8%;
+  background-color: var(--dark-blue);
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  transition: 0.5s;
+}
+
+#footer .top_5_trip:hover::after {
+  width: 100%;
+  transition: 0.5s;
+}
+
+#footer .team_solution a {
+  border: 2px solid var(--green);
+  color: var(--green);
+  border-radius: 5px;
+  transition: .4s;
+}
+
+#footer .team_solution a:hover {
+  color: var(--white);
+  background-color: var(--green);
+  transition: .4s;
+}
+
+#userDashboard .nav .nav-item {
+  background-color: var(--green);
+  color: var(--white);
+  font-weight: bold;
+  margin: 10px;
+}
+
+#userDashboard .nav .nav-item.active,
+#userDashboard .nav .nav-item:hover {
+  background-color: var(--dark-blue);
+  color: var(--white);
+  font-weight: bold;
+  margin: 10px;
+}
+
+#userDashboard #nav-ticket .bg-light-blue {
+  background-color: rgba(119, 166, 247, .5) !important;
+}
+
+#userDashboard #nav-ticket .bg-light-green {
+  background-color: rgba(0, 136, 122, .5) !important;
+}
+
+#contect_us .contect_us_link {
+  color: var(--dark);
+  transition: .5s;
+}
+
+#contect_us .contect_us_link:hover {
+  color: var(--dark-blue);
+  transition: .5s;
+}
+
+#contect_us #passenger_inquiry .form-border-left {
+  border-left: 3.5px solid var(--dark-blue);
+}
+
+#HomePage .Bus_Image img {
+  height: 400px;
+  object-fit: cover;
+}
+
+#HomePage .Bus_Image::after,
+#Book_Discount::after,
+#BookingBusDetails::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, .2);
+  z-index: 1;
+}
+
+@media screen and (max-width: 575px) {
+  #HomePage .findTicket {
+    bottom: -50px;
+  }
+}
+
+@media screen and (min-width: 576px) and (max-width: 767px) {
+  #HomePage .findTicket {
+    bottom: 0px;
+    height: 100%;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  #HomePage .findTicket {
+    bottom: -50px;
+  }
+}
+
+#HomeClientSlider .owl-dots {
+  position: absolute;
+  top: 0px;
+  right: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  overflow: auto;
+}
+
+#HomeClientSlider .owl-dots .owl-dot span {
+  width: 15px;
+  height: 15px;
+  margin: 5px 10px 5px 0px;
+  border: 2px solid var(--green);
+  background-color: var(--white);
+}
+
+#HomeClientSlider .owl-dots .owl-dot.active span {
+  background-color: var(--green);
+}
+
+#Book_Discount {
+  background-attachment: fixed;
+}
+
+#Book_Discount::after,
+#BookingBusDetails::after {
+  z-index: -1;
+}
+
+#BookingBusDetails,
+#Book_Discount {
+  position: relative;
+  background-image: url(../../Images/Bus_Home.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}

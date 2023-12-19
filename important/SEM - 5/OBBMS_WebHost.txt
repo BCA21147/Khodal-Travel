@@ -1,0 +1,31 @@
+Steps For OBBMS -> WEBHOST000 [ Free Hosting ] :-
+
+Changes The Following Files :-
+
+1)
+
+    Upload Your Files.
+    Create = ( DataBase ) [ WEBHOST000 - phpMyAdmin ].
+
+2)
+
+    Project\OBBMS\admin\CRUD\db_connection.php
+    -> Change = ( server_name, username, password, database_name );
+
+3)
+
+    Project\OBBMS\admin\CRUD\book_ticket
+    -> Create = ( [ PDF ] Directory );
+
+4)
+
+    Project\.htaccess
+    -> Write Code.
+    {        
+        # HTID:22307091: DO NOT REMOVE OR MODIFY THIS LINE AND THE LINES BELOW
+        php_value display_errors 1
+        # DO NOT REMOVE OR MODIFY THIS LINE AND THE LINES ABOVE HTID:22307091:
+        php_flag output_buffering on
+    }
+
+####################################################################################################

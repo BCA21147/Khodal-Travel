@@ -1,0 +1,459 @@
+img,
+.preloader_content {
+    user-select: none;
+}
+
+/* ###################################################################################################
+                                            Aside - Nav Bar - Start
+################################################################################################### */
+.nav .nav-item .nav-link p {
+    text-wrap: balance;
+}
+
+.small-menu-bold-font {
+    font-weight: bolder;
+    color: #007BFF !important;
+}
+
+/* ###################################################################################################
+                                            Aside - Nav Bar - End
+################################################################################################### */
+
+/* ###################################################################################################
+                                            Delete Model - Start
+################################################################################################### */
+@media screen and (max-width:575px) {
+
+    #fleet_delete_model,
+    #vehical_delete_model,
+    #location_delete_model,
+    #stand_delete_model,
+    #schedule_delete_model,
+    #schedule_filter_delete_model,
+    #tax_delete_model,
+    #payment_method_delete_model,
+    #facility_delete_model,
+    #country_delete_model,
+    #employee_type_delete_model,
+    #employee_add_model,
+    #employee_update_model,
+    #employee_delete_model,
+    #trip_add_model,
+    #trip_update_model,
+    #trip_delete_model,
+    #coupon_delete_model,
+    #inquiry_delete_model,
+    #passenger_add_model,
+    #passenger_update_model,
+    #passenger_delete_model {
+        max-width: 500px !important;
+    }
+}
+
+@media screen and (min-width:576px) and (max-width:677px) {
+
+    #fleet_delete_model,
+    #vehical_delete_model,
+    #location_delete_model,
+    #stand_delete_model,
+    #schedule_delete_model,
+    #schedule_filter_delete_model,
+    #tax_delete_model,
+    #payment_method_delete_model,
+    #facility_delete_model,
+    #country_delete_model,
+    #employee_type_delete_model,
+    #employee_add_model,
+    #employee_update_model,
+    #employee_delete_model,
+    #trip_add_model,
+    #trip_update_model,
+    #trip_delete_model,
+    #coupon_delete_model,
+    #inquiry_delete_model,
+    #passenger_add_model,
+    #passenger_update_model,
+    #passenger_delete_model {
+        max-width: 500px !important;
+    }
+}
+
+@media screen and (min-width:678px) and (max-width:991px) {
+
+    #fleet_delete_model,
+    #vehical_delete_model,
+    #location_delete_model,
+    #stand_delete_model,
+    #schedule_delete_model,
+    #schedule_filter_delete_model,
+    #tax_delete_model,
+    #payment_method_delete_model,
+    #facility_delete_model,
+    #country_delete_model,
+    #employee_type_delete_model,
+    #employee_add_model,
+    #employee_update_model,
+    #employee_delete_model,
+    #trip_add_model,
+    #trip_update_model,
+    #trip_delete_model,
+    #coupon_delete_model,
+    #inquiry_delete_model,
+    #passenger_add_model,
+    #passenger_update_model,
+    #passenger_delete_model {
+        max-width: 575px !important;
+    }
+}
+
+@media screen and (min-width:992px) and (max-width:1199px) {
+
+    #fleet_delete_model,
+    #vehical_delete_model,
+    #location_delete_model,
+    #stand_delete_model,
+    #schedule_delete_model,
+    #schedule_filter_delete_model,
+    #tax_delete_model,
+    #payment_method_delete_model,
+    #facility_delete_model,
+    #country_delete_model,
+    #employee_type_delete_model,
+    #employee_add_model,
+    #employee_update_model,
+    #employee_delete_model,
+    #trip_add_model,
+    #trip_update_model,
+    #trip_delete_model,
+    #coupon_delete_model,
+    #inquiry_delete_model,
+    #passenger_add_model,
+    #passenger_update_model,
+    #passenger_delete_model {
+        max-width: 677px !important;
+    }
+}
+
+@media screen and (min-width:1200px) and (max-width:1399px) {
+
+    #fleet_delete_model,
+    #vehical_delete_model,
+    #location_delete_model,
+    #stand_delete_model,
+    #schedule_delete_model,
+    #schedule_filter_delete_model,
+    #tax_delete_model,
+    #payment_method_delete_model,
+    #facility_delete_model,
+    #country_delete_model,
+    #employee_type_delete_model,
+    #employee_add_model,
+    #employee_update_model,
+    #employee_delete_model,
+    #trip_add_model,
+    #trip_update_model,
+    #trip_delete_model,
+    #coupon_delete_model,
+    #inquiry_delete_model,
+    #passenger_add_model,
+    #passenger_update_model,
+    #passenger_delete_model {
+        max-width: 991px !important;
+    }
+}
+
+@media screen and (min-width:1400px) {
+
+    #fleet_delete_model,
+    #vehical_delete_model,
+    #location_delete_model,
+    #stand_delete_model,
+    #schedule_delete_model,
+    #schedule_filter_delete_model,
+    #tax_delete_model,
+    #payment_method_delete_model,
+    #facility_delete_model,
+    #country_delete_model,
+    #employee_type_delete_model,
+    #employee_add_model,
+    #employee_update_model,
+    #employee_delete_model,
+    #trip_add_model,
+    #trip_update_model,
+    #trip_delete_model,
+    #coupon_delete_model,
+    #inquiry_delete_model,
+    #passenger_add_model,
+    #passenger_update_model,
+    #passenger_delete_model {
+        max-width: 1199px !important;
+    }
+}
+
+/* ###################################################################################################
+                                            Delete Model - End
+################################################################################################### */
+
+/* ###################################################################################################
+                                            Image - Preview - Start
+################################################################################################### */
+
+.img-close-parent {
+    position: relative;
+}
+
+.img-close-btn {
+    position: absolute;
+    bottom: 10%;
+    right: 50%;
+    background: #007BFF;
+    cursor: pointer;
+    color: #fff;
+    transition: .3s;
+    transform: translate(50%);
+}
+
+.img-close-btn:hover {
+    background: red;
+    transition: .3s;
+}
+
+@media screen and (max-width:575px) {
+    .img-close-btn {
+        padding: 1px 6px !important;
+    }
+}
+
+@media screen and (min-width:576px) and (max-width:677px) {
+    .img-close-btn {
+        padding: 1px 6px !important;
+    }
+}
+
+@media screen and (min-width:678px) and (max-width:991px) {
+    .img-close-btn {
+        padding: 1px 6px !important;
+    }
+}
+
+@media screen and (min-width:992px) and (max-width:1199px) {
+    .img-close-btn {
+        padding: 5px 11px !important;
+    }
+}
+
+@media screen and (min-width:1200px) and (max-width:1399px) {
+    .img-close-btn {
+        padding: 4px 11px !important;
+    }
+}
+
+@media screen and (min-width:1400px) {
+    .img-close-btn {
+        padding: 5px 11px !important;
+    }
+}
+
+/* ###################################################################################################
+                                            Image - Preview - End
+################################################################################################### */
+
+/* ###################################################################################################
+                                            Bus Seat - Image - Start
+################################################################################################### */
+input.custome_checkbox_for_select_bus,
+.bus_blank_space {
+    position: relative;
+    cursor: pointer;
+}
+
+input.custome_checkbox_for_select_bus::after {
+    content: attr(data-bus_number);
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    height: 100%;
+    vertical-align: middle;
+    text-align: center;
+    background-image: url('../../../Images/rest.png');
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    color: black;
+    font-weight: bold;
+}
+
+input.custome_checkbox_for_select_bus:checked::after {
+    background-image: url('../../../Images/success.png');
+    color: darkblue;
+}
+
+input.custome_checkbox_for_select_bus:disabled::after {
+    background-image: url('../../../Images/booked.png');
+    color: black;
+}
+
+@media screen and (max-width:300px) {
+    input.custome_checkbox_for_select_bus::after {
+        content: "";
+    }
+
+    .bus_blank_space {
+        width: 0px;
+        height: 0px;
+    }
+
+    input.custome_checkbox_for_select_bus,
+    .bus-details-img {
+        width: 10px;
+        height: 10px;
+    }
+}
+
+@media screen and (min-width:300px) and (max-width:350px) {
+
+    input.custome_checkbox_for_select_bus::after {
+        content: "";
+    }
+
+    .bus_blank_space {
+        width: 0px;
+        height: 0px;
+    }
+
+    input.custome_checkbox_for_select_bus,
+    .bus-details-img {
+        width: 20px;
+        height: 20px;
+    }
+}
+
+@media screen and (min-width:350px) and (max-width:575px) {
+
+    input.custome_checkbox_for_select_bus,
+    .bus-details-img,
+    .bus_blank_space {
+        width: 25px;
+        height: 30px;
+    }
+}
+
+@media screen and (min-width:576px) and (max-width:677px) {
+
+    input.custome_checkbox_for_select_bus,
+    .bus-details-img,
+    .bus_blank_space {
+        width: 30px;
+        height: 35px;
+    }
+}
+
+@media screen and (min-width:678px) and (max-width:991px) {
+
+    input.custome_checkbox_for_select_bus,
+    .bus-details-img,
+    .bus_blank_space {
+        width: 35px;
+        height: 35px;
+    }
+}
+
+@media screen and (min-width:992px) and (max-width:1199px) {
+
+    input.custome_checkbox_for_select_bus,
+    .bus-details-img,
+    .bus_blank_space {
+        width: 30px;
+        height: 30px;
+    }
+}
+
+@media screen and (min-width:1200px) and (max-width:1399px) {
+
+    input.custome_checkbox_for_select_bus,
+    .bus-details-img,
+    .bus_blank_space {
+        width: 30px;
+        height: 35px;
+    }
+}
+
+@media screen and (min-width:1400px) {
+
+    input.custome_checkbox_for_select_bus,
+    .bus-details-img,
+    .bus_blank_space {
+        width: 45px;
+        height: 45px;
+    }
+}
+
+/* ###################################################################################################
+                                            Bus Seat - Image - End
+################################################################################################### */
+
+/* ###################################################################################################
+                                            Rest Time - PreLoader - Start
+################################################################################################### */
+
+.rest_time_loader {
+    background-color: rgba(0, 0, 0, .55);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1040;
+}
+
+/* ###################################################################################################
+                                            Rest Time - PreLoader - End
+################################################################################################### */
+
+/* ###################################################################################################
+                                            DashBoard - Start
+################################################################################################### */
+
+#boxes_of_dashboard .card {
+    position: relative;
+}
+
+#boxes_of_dashboard .card::after {
+    content: "";
+    position: absolute;
+    top: 2.5%;
+    left: 2.5%;
+    width: 95%;
+    height: 95%;
+    background-color: transparent;
+    border-radius: 7px;
+    border: 5px solid #F4F6F9;
+}
+
+#boxes_of_dashboard .card h5,
+#boxes_of_dashboard .card h1 {
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+#boxes_of_dashboard .card .slider {
+    width: 100%;
+    height: 3px;
+    background-color: rgba(0, 0, 0, .25);
+    position: relative;
+}
+
+#boxes_of_dashboard .card .slider::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 75%;
+    height: 100%;
+    background-color: #fff;
+}
+
+/* ###################################################################################################
+                                            DashBoard - End
+################################################################################################### */
